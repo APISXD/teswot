@@ -82,8 +82,8 @@
             align-items: center;
               width: 100%;
               border-collapse: collapse;
-                max-width: 400px; /* Menetapkan lebar maksimum tabel */
-  font-size: 14px; /* Mengurangi ukuran font */
+                max-width: 10px; /* Menetapkan lebar maksimum tabel */
+  font-size: 10px; /* Mengurangi ukuran font */
           }
           th, td {
               border: 1px solid black;
