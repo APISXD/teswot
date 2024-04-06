@@ -1,6 +1,6 @@
 .iphone-1415-pro-max-1 .image-1 {
   border-radius: 18px;
-  background: url('assets/images/image1.png') 50% / cover no-repeat;
+  background: url("../assets/images/image1.png") 50% / cover no-repeat;
   margin: 0 1px 6px 0;
   width: 174px;
   height: 232px;
@@ -9,16 +9,16 @@
   top: 5rem;
 }
 .iphone-1415-pro-max-1 .meet-with-seruni {
-  margin-right: 1.7px;
   overflow-wrap: break-word;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   font-size: 12px;
   color: #000000;
-  margin-top: 5rem;
+  margin-top: 80px;
+  text-align: center;
 }
 .iphone-1415-pro-max-1 .recap {
-  margin: 0 0.3px 18px 0;
+  margin-bottom: 18px;
   display: inline-block;
   overflow-wrap: break-word;
   font-family: "Montserrat", sans-serif;
@@ -34,115 +34,190 @@
   margin-bottom: 50px;
 }
 .iphone-1415-pro-max-1 .image-2 {
-  background: url('assets/images/image2.png') 50% / cover no-repeat;
+  overflow-wrap: break-word;
+  background: url("../assets/images/image2.png") 50% / cover no-repeat;
+  margin-top: 70px;
   margin-bottom: 18px;
   width: 90px;
   height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .iphone-1415-pro-max-1 .meet-with-jkt-48 {
-  margin-right: 7.7px;
   overflow-wrap: break-word;
-  font-family: 'Luckiest Guy';
-  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
   font-size: 12px;
   color: #000000;
+  text-align: center;
 }
 .iphone-1415-pro-max-1 .recap-1 {
-  margin-right: 0.3px;
-  overflow-wrap: break-word;
-  font-family: 'Luckiest Guy';
-  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
   font-size: 12px;
   color: #000000;
 }
 .iphone-1415-pro-max-1 {
-  background: #FFFFFF;
+  background: #ffffff;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 23px 0 18px 0;
-  position: 0;
+  position: relative;
   box-sizing: border-box;
-  margin: 50px;
+  margin: 100px;
 }
-
 /*table*/
- .tabless {
-    font-family: "Montserrat", sans-serif;
-    
- }
+.tabless {
+  float: left;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.inti {
+  left: 200px;
+}
+.trn {
+  left: 320px;
+}
 .gen11 td {
   border: none;
 }
-    .trainees {
-      text-align: center;
-    }
-          table {
-            justify-content: center;
-            align-items: center;
-              width: 100%;
-              border-collapse: collapse;
-                max-width: 10px; /* Menetapkan lebar maksimum tabel */
-  font-size: 10px; /* Mengurangi ukuran font */
-          }
-          th, td {
-              border: 1px solid black;
-              padding: 8px;
-              text-align: center;
-              width: 30px;
-              position: relative;
-          }
-          th {
-              background-color: #e20613;
-          }
-          .mvp {
-            background-color: aqua;
-          }
-          .mvpd {
-        vertical-align: middle; /* Menyamakan tinggi gambar dengan tulisan */
-        margin-left: 1px; /* Jarak antara gambar dan teks */
-        margin-right: 10px;
-        float: right;
-        position: relative;
-        top: -1px;
-    }
-          .text-right {
-            position: fixed;
-            top: 0px;
-            justify-content: center;
-            align-items: center;
-              text-align: right;
-          }
-          .btn {
-              padding: 8px 16px;
-              background-color: pink;
-              color: white;
-              text-decoration: none;
-              border: none;
-              border-radius: 4px;
-          }
-          .btn:hover {
-              background-color: #ff66b3;
-          }
-          .mt-2 {
-              margin-top: 8px;
-          }
-          /* Penambahan warna pada teks status */
-          .status-1 {
-              color: red;
-          }
-          .status-2 {
-              color: blue;
-          }
-          .status-3 {
-              color: green;
-          }
-          .status-4 {
-              color: purple;
-          }
-          .status-5 {
-              color: orange;
-          }
-          .status-6 {
-              color: brown;
-          }
+.trainees {
+  text-align: center;
+  margin-top: 50px;
+}
+table {
+  position: relative;
+  width: 500px;
+  border-collapse: collapse;
+  font-size: 14px; /* Mengurangi ukuran font */
+}
+th,
+td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+  width: 30px;
+  position: relative;
+}
+th {
+  background-color: #e20613;
+  cursor: pointer;
+}
+.mvpd {
+  vertical-align: middle; 
+  float: right;
+  position: relative;
+  top: -1px;
+  right: 20px;
+}
+.text-right {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  position: fixed;
+  top: 600px;
+  bottom: 0px;
+  left: 1350px;
+  padding-left: 50px;
+}
+.btn {
+  padding: 8px 16px;
+  background-color: pink;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+.btn:hover {
+  background-color: #ff66b3;
+}
+.mt-2 {
+  margin-top: 8px;
+}
+/* Penambahan warna pada teks status */
+.status-1 {
+  color: red;
+}
+/*untuk sort*/
+.sortr th:hover {
+	content: "\25be";
+}
+.sortr th {
+	cursor: pointer;
+}
+
+.sortr .th-sort-asc::after {
+	content: "\25b4";
+}
+
+.sortr .th-sort-desc::after {
+	content: "\25be";
+}
+
+.sortr .th-sort-asc,
+.sortr .th-sort-desc {
+	background: #e20613;
+}
+/* Media query untuk layar dengan lebar maksimum 600px */
+@media screen and (max-width: 400px) {
+  .iphone-1415-pro-max-1 {
+  padding: 23px 0 18px 0;
+  margin: 70px;
+}
+  .iphone-1415-pro-max-1 .image-1 {
+  width: 121,8px;
+  height: 162,4px;
+  position: relative;
+  left: 50px;
+  top: 5rem;
+}
+.iphone-1415-pro-max-1 .meet-with-seruni {
+  margin-left: 800px;
+  width: 150px;
+  margin-top: -130px;
+}
+.iphone-1415-pro-max-1 .recap {
+  width: 150px;
+  margin-left: 900px;
+}
+.ketemu {
+  width: 500px;
+  margin-left: 1050px;
+}
+.iphone-1415-pro-max-1 .image-2 {
+  position: relative;
+  margin-left: 600px;
+}
+.iphone-1415-pro-max-1 .meet-with-jkt-48 {
+  margin-left: 600px;
+  width: 150px;
+}
+.iphone-1415-pro-max-1 .recap-1 {
+  width: 100px;
+  margin-left: 650px;
+}
+.inti {
+  left: 110px;
+}
+.trn {
+  left: 320px;
+}
+  /*table foriszxa*/
+  .tabless {
+    position: absolute;
+    float: left;
+  font-family: "Montserrat", sans-serif;
+    margin-top: -35px;
+margin-right: -99px;
+margin-bottom: -99px;
+margin-left: -99px;
+  }
+  table {
+  width: 320px;
+  font-size: 14px; /* Mengurangi ukuran font */
+  }
+}
