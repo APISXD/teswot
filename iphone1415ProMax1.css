@@ -1,6 +1,6 @@
 .iphone-1415-pro-max-1 .image-1 {
   border-radius: 18px;
-  background: url('../assets/images/image1.png') 50% / cover no-repeat;
+  background: url('assets/images/image1.png') 50% / cover no-repeat;
   margin: 0 1px 6px 0;
   width: 174px;
   height: 232px;
@@ -34,7 +34,7 @@
   margin-bottom: 50px;
 }
 .iphone-1415-pro-max-1 .image-2 {
-  background: url('../assets/images/image2.png') 50% / cover no-repeat;
+  background: url('assets/images/image2.png') 50% / cover no-repeat;
   margin-bottom: 18px;
   width: 90px;
   height: 160px;
